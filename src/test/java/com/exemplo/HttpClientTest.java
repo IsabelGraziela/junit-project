@@ -32,6 +32,7 @@ public class HttpClientTest {
                 int statusCode = response.getCode();
                 assertEquals(200, statusCode);
 
+
                 // Verifica o conteúdo da resposta
                 HttpEntity entity = response.getEntity();
                 assertNotNull(entity);
